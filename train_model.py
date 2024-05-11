@@ -22,6 +22,7 @@ def train_model(output_dir, yaml_files):
 
     optimizer = nlp.begin_training()
 
+    # Training data
     train_data = []
 
     for yaml_file in yaml_files:
@@ -48,13 +49,14 @@ def train_model(output_dir, yaml_files):
             nlp.update(example, sgd=optimizer, losses=losses)
         print("Epoch:", epoch, "Losses:", losses)
 
+  
     nlp.to_disk(output_dir)
     print("Trained model saved to:", output_dir)
 
 if __name__ == '__main__':
-
+   
     directory = "C:/Users/acer/Desktop/New folder/data"
     yaml_files = [os.path.join(directory, file) for file in os.listdir(directory) if file.endswith(".yml")]
 
- 
+    
     train_model("C:/Users/acer/Desktop/New folder/model", yaml_files)
