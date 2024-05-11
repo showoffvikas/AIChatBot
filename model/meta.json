@@ -1,0 +1,52 @@
+{
+  "lang":"en",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.5.3,<3.6.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"512241e12",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null,
+    "mode":"default"
+  },
+  "labels":{
+    "textcat_multilabel":[
+      "psychology",
+      "movies",
+      "profile",
+      "politics",
+      "history",
+      "artificial intelligence",
+      "gossip",
+      "money",
+      "greetings",
+      "food",
+      "humor",
+      "health",
+      "trivia",
+      "conversations",
+      "literature",
+      "computers",
+      "emotion",
+      "sports",
+      "science",
+      "AI"
+    ]
+  },
+  "pipeline":[
+    "textcat_multilabel"
+  ],
+  "components":[
+    "textcat_multilabel"
+  ],
+  "disabled":[
+
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "labels":[
+    "psychology",
+    "movies",
+    "profile",
+    "politics",
+    "history",
+    "artificial intelligence",
+    "gossip",
+    "money",
+    "greetings",
+    "food",
+    "humor",
+    "health",
+    "trivia",
+    "conversations",
+    "literature",
+    "computers",
+    "emotion",
+    "sports",
+    "science",
+    "AI"
+  ],
+  "threshold":0.5
+}
